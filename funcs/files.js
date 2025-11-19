@@ -1,4 +1,4 @@
-const { createClient } = require("@libsql/client");
+import { createClient } from "https://esm.sh/@libsql/client@0.6.0/web";
 
 export default async function handler(event, context) {
   const db = createClient({
